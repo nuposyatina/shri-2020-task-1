@@ -1,0 +1,10 @@
+.theme_color_project-inverse {
+  --color-background-default: #000000;
+  --color-background-accent: #ffffff;
+  --color-background-border: #ffffff;
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: rgba(255, 255, 255, 0.6);
+  --color-text-additional: rgba(255, 255, 255, 0.3);
+  --color-text-linked: #0077ff;
+}

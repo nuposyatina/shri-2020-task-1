@@ -1,0 +1,7 @@
+.theme_gap_small {
+  --gap: var(--space-m);
+  
+  @media screen and (min-width: 1024px) {
+    --gap: var(--space-xxxl);
+  }
+}

@@ -1,0 +1,13 @@
+.theme_size_default {
+  --size-text-s: 8px;
+  --size-text-m: 10px;
+  --size-text-l: 11px;
+  --size-text-xl: 13px;
+  --size-text-xxl: 16px;
+
+  --line-height-text-s: 21px;
+  --line-height-text-m: 25px;
+  --line-height-text-l: 28px;
+  --line-height-text-xl: 34px;
+  --line-height-text-xxl: 38px;
+}
