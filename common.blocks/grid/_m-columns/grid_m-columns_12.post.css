@@ -1,0 +1,5 @@
+@media screen and (min-width: 1024px) {
+	.grid_m-columns_12 { 
+		grid-template-columns: repeat(12, 1fr);
+	}
+}
