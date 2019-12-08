@@ -1,0 +1,4 @@
+.header {
+  position: relative;
+  padding: var(--space-xxxl) var(--gap);
+}

@@ -1,0 +1,4 @@
+.footer {
+  padding: var(--space-xxxl) var(--gap);
+  position: relative;
+}
