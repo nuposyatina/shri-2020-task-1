@@ -18,5 +18,8 @@
   "homepage": "https://github.com/nuposyatina/shri-2020-task-1#readme",
   "dependencies": {
     "postcss-nested": "^4.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
