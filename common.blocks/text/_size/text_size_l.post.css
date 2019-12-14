@@ -1,9 +1,7 @@
 .text_size_l {
-  /* так как текст это просто линии, нужно переделать */
-  font-size: var(--size-text-l);
-  line-height: var(--line-height-text-l);
   --word-width-s: 28px;
   --word-width-m: 68px;
   --word-width-l: 138px;
-  --word-height: 11px; 
+  --word-height: var(--size-text-l);
+  --word-margin: calc((var(--line-height-text-l) - var(--size-text-l)) / 2);
 }
