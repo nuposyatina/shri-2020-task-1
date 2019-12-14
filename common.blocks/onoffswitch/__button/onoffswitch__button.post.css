@@ -2,5 +2,5 @@
   width: 24px;
   height: 24px;
   background-color: var(--color-background-border);
-  border-width: 2px;
+  margin: var(--space-xxxs);
 }
