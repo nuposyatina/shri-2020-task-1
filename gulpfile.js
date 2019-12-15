@@ -6,7 +6,10 @@ const postcssNested = require('postcss-nested');
 
 const Path = {
   BUILD: path.join((__dirname, './build/')),
-  COMMON_CSS: path.join(__dirname, './common.blocks/**/*.css')
+  CSS: [
+    path.join(__dirname, './common.blocks/**/*.css'),
+    path.join(__dirname, './content.blocks/**/*.css')
+  ]
 }
 
 function concatCSS(fromPath, toPath) {
@@ -17,7 +20,7 @@ function concatCSS(fromPath, toPath) {
 }
 
 function buildCSS() {
-  return concatCSS(Path.COMMON_CSS, Path.BUILD);
+  return concatCSS(Path.CSS, Path.BUILD);
 }
 
 module.exports = {

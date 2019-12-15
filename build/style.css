@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .avatar {
   background-color: var(--color-text-primary);
 }
@@ -12,29 +8,12 @@
   box-sizing: border-box;
   position: relative;
 }
-.cover {
-  min-height: 472px;
-}
-.event {
-  min-height: 400px;
-}
-.footer {
-  padding: var(--space-xxxl) var(--gap);
-  position: relative;
-}
 .grid {
   display: grid;
 	width: 100%;
 	box-sizing: border-box;
 }
 
-.header {
-  position: relative;
-  padding: var(--space-xxxl) var(--gap);
-}
-.history {
-  border-width: 3px;
-}
 .image {
   width: 100%;
   height: 100%;
@@ -49,28 +28,6 @@
   width: 100%;
   border: 3px solid var(--color-background-border);
 }
-.onoffswitch {
-  width: 97px;
-  height: 32px;
-  border: 2px solid var(--color-background-border);
-  display: flex;
-  align-items: center;
-}
-.payment {
-  border-width: 3px;
-}
-.product {
-  min-height: 300px;
-  border-width: 3px;
-}
-.warning {
-  min-height: 335px;
-}
-
-  .warning .placeholder {
-    margin-top: var(--space-m);
-    margin-bottom: var(--space-m);
-  }
 .avatar_size_m {
   width: 60px;
   height: 60px;
@@ -148,23 +105,6 @@
 .card_view_default {
   background-color: var(--color-background-default);
 }
-.cover__preview {
-  /* временно, пока не знаю куда помещается блок изображения */
-  height: 180px;
-  margin-bottom: var(--space-l);
-}
-.event__preview {
-  margin-bottom: var(--space-xxl);
-}
-.event__speaker {
-  margin-right: var(--space-xs);
-}
-.event__title {
-  margin-bottom: var(--space-s);
-}
-.footer__content {
-  max-width: 1280px;
-}
 .form__control {
   flex-grow: 1;
 }
@@ -209,28 +149,6 @@
   grid-row-gap: calc(var(--gap) / 2)
 }
 
-.header__content {
-  max-width: 1280px;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-}
-.header__logo {
-  width: 179px;
-  height: 34px;
-  background-color: var(--color-text-primary);
-}
-.history__details {
-  display: flex;
-}
-.history__hide {
-  display: none;
-}
-.history__show {
-  display: flex;
-  justify-content: space-between;
-}
-
 .icon-plus_vertical-align_center {
   display: flex;
   align-items: center;
@@ -266,34 +184,12 @@
 .list_view_default {
   background-color: var(--color-background-default);
 }
-.onoffswitch__button {
-  width: 24px;
-  height: 24px;
-  background-color: var(--color-background-border);
-  margin: var(--space-xxxs);
-}
-.onoffswitch_checked {
-  justify-content: flex-end;
-}
-/*FIXME: придумать, как сделать выравнивание кнопки справа без использования вложенных селекторов */
-  .payment__footer .form__control {
-    display: flex;
-    justify-content: flex-end;
-  }
 .placeholder_size_m {
   width: 72px;
   height: 72px;
 }
 .placeholder_view_primary {
   background-color: var(--color-text-primary);
-}
-.product__footer {
-  display: flex;
-  flex-direction: column;
-}
-.product__image {
-  height: 160px;
-  width: 100%;
 }
 .section_indent-b_xxl {
   margin-bottom: var(--space-xxl);
@@ -466,10 +362,6 @@
   --space-xxxxxl: 72px;
 }
 
-.warning__content {
-  flex-direction: column;
-  align-items: center;
-}
 .card__content_distribute_center {
   justify-content: center;
 }
@@ -753,11 +645,11 @@
 .list__item_indent-b_xl {
   margin-bottom: var(--space-xl);
 }
-.list__item_space-a_m {
-  padding: var(--space-m);
-}
 .list__item_indent-t_m {
   margin-top: var(--space-m);
+}
+.list__item_space-a_m {
+  padding: var(--space-m);
 }
 .list__item_space-b_s {
   padding-bottom: var(--space-s);
@@ -774,4 +666,112 @@
 }
 .text__word_width_s {
   width: var(--word-width-s);
+}
+.cover {
+  min-height: 472px;
+}
+.event {
+  min-height: 400px;
+}
+.footer {
+  padding: var(--space-xxxl) var(--gap);
+  position: relative;
+}
+.header {
+  position: relative;
+  padding: var(--space-xxxl) var(--gap);
+}
+.history {
+  border-width: 3px;
+}
+.onoffswitch {
+  width: 97px;
+  height: 32px;
+  border: 2px solid var(--color-background-border);
+  display: flex;
+  align-items: center;
+}
+.payment {
+  border-width: 3px;
+}
+.product {
+  min-height: 300px;
+  border-width: 3px;
+}
+.warning {
+  min-height: 335px;
+}
+
+  .warning .placeholder {
+    margin-top: var(--space-m);
+    margin-bottom: var(--space-m);
+  }
+.cover__preview {
+  /* временно, пока не знаю куда помещается блок изображения */
+  height: 180px;
+  margin-bottom: var(--space-l);
+}
+.event__preview {
+  margin-bottom: var(--space-xxl);
+}
+.event__speaker {
+  margin-right: var(--space-xs);
+}
+.event__title {
+  margin-bottom: var(--space-s);
+}
+.footer__content {
+  max-width: 1280px;
+}
+.header__content {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.header__logo {
+  width: 179px;
+  height: 34px;
+  background-color: var(--color-text-primary);
+}
+.history__details {
+  display: flex;
+}
+.history__hide {
+  display: none;
+}
+.history__show {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history__transaction {
+  box-sizing: border-box;
+  border-width: 3px;
+}
+.onoffswitch__button {
+  width: 24px;
+  height: 24px;
+  background-color: var(--color-background-border);
+  margin: var(--space-xxxs);
+}
+.onoffswitch_checked {
+  justify-content: flex-end;
+}
+/*FIXME: придумать, как сделать выравнивание кнопки справа без использования вложенных селекторов */
+  .payment__footer .form__control {
+    display: flex;
+    justify-content: flex-end;
+  }
+.product__footer {
+  display: flex;
+  flex-direction: column;
+}
+.product__image {
+  height: 160px;
+  width: 100%;
+}
+.warning__content {
+  flex-direction: column;
+  align-items: center;
 }

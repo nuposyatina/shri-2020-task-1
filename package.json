@@ -5,7 +5,7 @@
   "main": "templater.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx gulp"
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
