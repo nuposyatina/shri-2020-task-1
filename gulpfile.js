@@ -9,7 +9,8 @@ const Path = {
   CSS: [
     path.join(__dirname, './common.blocks/**/*.css'),
     path.join(__dirname, './content.blocks/**/*.css')
-  ]
+  ],
+  JS: path.join(__dirname, './script.js')
 }
 
 function concatCSS(fromPath, toPath) {
@@ -23,6 +24,11 @@ function buildCSS() {
   return concatCSS(Path.CSS, Path.BUILD);
 }
 
+function buildJS() {
+  return gulp.src(Path.JS).
+  pipe(gulp.dest(Path.BUILD));
+}
+
 module.exports = {
-  default: buildCSS
+  default: gulp.parallel([buildCSS, buildJS])
 }
