@@ -1,5 +1,5 @@
 .cover__preview {
-  /* временно, пока не знаю куда помещается блок изображения */
+  width: 100%;
   height: 180px;
   margin-bottom: var(--space-l);
 }
