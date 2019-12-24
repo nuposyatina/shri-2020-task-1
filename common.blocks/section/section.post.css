@@ -1,3 +1,4 @@
 .section {
+  box-sizing: border-box;
   background-color: var(--color-background-default);
 }
