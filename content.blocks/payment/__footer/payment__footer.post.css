@@ -1,7 +1,0 @@
-.payment__footer {
-  /*FIXME: придумать, как сделать выравнивание кнопки справа без использования вложенных селекторов */
-  .form__control {
-    display: flex;
-    justify-content: flex-end;
-  }
-}

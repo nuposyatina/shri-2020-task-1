@@ -1,3 +1,5 @@
 .button {
+  box-sizing: border-box;
+  width: 200px;
   background-color: var(--color-background-accent);
 }
