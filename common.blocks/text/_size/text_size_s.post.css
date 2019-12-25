@@ -3,5 +3,5 @@
   --word-width-m: 48px;
   --word-width-l: 100px;
   --word-height: var(--size-text-s);
-  --word-margin: calc((var(--line-height-text-s) - var(--size-text-s)) / 2);
+  --word-line-height: var(--line-height-text-s);
 }

@@ -1,5 +1,4 @@
 .text {
   box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
+  line-height: var(--word-line-height);
 }

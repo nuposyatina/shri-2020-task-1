@@ -1,4 +1,5 @@
 .form__control {
+  display: flex;
   box-sizing: border-box;
   flex-grow: 1;
   flex-direction: row-reverse;
