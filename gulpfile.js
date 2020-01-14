@@ -3,6 +3,8 @@ const gulp = require('gulp');
 const concat = require('gulp-concat');
 const postcss = require('gulp-postcss');
 const postcssNested = require('postcss-nested');
+const cleanCSS = require('gulp-clean-css');
+const minify = require('gulp-minify');
 
 const Path = {
   BUILD: path.join((__dirname, './build/')),
@@ -17,6 +19,7 @@ function concatCSS(fromPath, toPath) {
   return gulp.src(fromPath).
   pipe(postcss([postcssNested()])).
   pipe(concat('style.css')).
+  pipe(cleanCSS()).
   pipe(gulp.dest(toPath));
 }
 
@@ -26,6 +29,14 @@ function buildCSS() {
 
 function buildJS() {
   return gulp.src(Path.JS).
+  pipe(minify(
+    {
+      ext:{
+        src:'-debug.js',
+        min:'.js'
+      }
+    }
+  )).
   pipe(gulp.dest(Path.BUILD));
 }
 
