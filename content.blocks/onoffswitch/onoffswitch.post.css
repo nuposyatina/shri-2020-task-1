@@ -1,8 +1,9 @@
 .onoffswitch {
+  display: flex;
+  align-items: center;
   box-sizing: border-box;
   width: 97px;
   height: 32px;
+
   border: 2px solid var(--color-background-border);
-  display: flex;
-  align-items: center;
 }
