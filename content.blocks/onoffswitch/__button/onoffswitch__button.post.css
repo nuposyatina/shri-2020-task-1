@@ -3,5 +3,5 @@
   width: 24px;
   height: 24px;
   background-color: var(--color-background-border);
-  margin: var(--space-xxxs);
+  margin-right: 2px;
 }
