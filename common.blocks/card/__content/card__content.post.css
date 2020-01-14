@@ -1,5 +1,6 @@
 .card__content {
-  box-sizing: border-box;
-  display: flex;
   position: relative;
+
+  display: flex;
+  box-sizing: border-box;
 }

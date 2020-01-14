@@ -1,4 +1,5 @@
 .avatar {
   box-sizing: border-box;
+
   background-color: var(--color-text-primary);
 }

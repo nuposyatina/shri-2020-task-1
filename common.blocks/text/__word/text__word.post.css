@@ -1,6 +1,7 @@
 .text__word {
-  box-sizing: border-box;
   display: inline-block;
+  box-sizing: border-box;
   height: var(--word-height);
+
   background-color: var(--text-background-color);
 }

@@ -5,7 +5,7 @@
       "build/**"
   ],
   "always-semicolon": true,
-  "block-indent": 2,
+  "block-indent": "2",
   "color-case": "lower",
   "color-shorthand": false,
   "element-case": "lower",

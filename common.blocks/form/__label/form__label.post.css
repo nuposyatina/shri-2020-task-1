@@ -1,4 +1,4 @@
 .form__label {
-  box-sizing: border-box;
   flex-shrink: 0;
+  box-sizing: border-box;
 }

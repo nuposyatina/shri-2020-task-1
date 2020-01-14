@@ -1,6 +1,6 @@
 .form__control {
   display: flex;
-  box-sizing: border-box;
-  flex-grow: 1;
   flex-direction: row-reverse;
+  flex-grow: 1;
+  box-sizing: border-box;
 }
